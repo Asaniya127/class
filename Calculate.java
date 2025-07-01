@@ -3,8 +3,11 @@ import java.util.Scanner;
 public class Calculate {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter number");
-        int input = sc.nextInt();
-        System.out.println(input);
+        System.out.println("Enter first number");
+        int a = sc.nextInt();
+        System.out.println("Enter second number");
+        int b = sc.nextInt();
+        int reult =a+b;
+        System.out.println(reult);
     }
 }
