@@ -16,7 +16,7 @@ System.out.println("Multiplication of 2 no.s is :");
         Scanner sc=new Scanner(System.in);
         int x=sc.nextInt();
         int y=sc.nextInt();
-        calculator2 obj= new calculator2();
+        Operator obj= new Operator();
         obj.calculator(x,y);
     }
 }
